@@ -6,7 +6,7 @@ exports[`Testing component Counter App should show component CounterApp 1`] = `
     CounterApp
   </h1>
   <h2>
-    0
+    10
   </h2>
   <button
     onClick={[Function]}
