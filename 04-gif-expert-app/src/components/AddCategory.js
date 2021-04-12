@@ -14,7 +14,7 @@ const AddCategory = ( { setCategories } ) => {
     if ( inputValue.trim().length > 2 ) {
       // @TODO: Validate if exists
 
-      setCategories( cats => [...cats, inputValue] );
+      setCategories( cats => [inputValue, ...cats] );
       setInputValue( '' );
     }
   }
