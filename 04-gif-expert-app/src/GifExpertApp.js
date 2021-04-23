@@ -2,9 +2,8 @@ import { useState } from "react";
 import AddCategory from "./components/AddCategory";
 import GifGrid from "./components/GifGrid";
 
-const GiftExpertApp = () => {
-  const list = ['Dragon Ball'];
-  const [categories, setCategories] = useState(list);
+const GiftExpertApp = ({ defaultCategories = [] }) => {
+  const [categories, setCategories] = useState(defaultCategories);
 
   return (
     <>
