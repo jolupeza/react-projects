@@ -1,10 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { CounterApp } from './components/01-useState/CounterApp';
+import { SimpleForm } from './components/02-useEffect/SimpleForm';
 
 ReactDOM.render(
   <React.StrictMode>
-    <CounterApp />
+    <SimpleForm />
   </React.StrictMode>,
   document.getElementById('root')
 );
